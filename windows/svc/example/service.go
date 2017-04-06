@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"time"
 
-	"golang.org/x/sys/windows/svc"
-	"golang.org/x/sys/windows/svc/debug"
-	"golang.org/x/sys/windows/svc/eventlog"
+	"github.com/weisd/sys/windows/svc"
+	"github.com/weisd/sys/windows/svc/debug"
+	"github.com/weisd/sys/windows/svc/eventlog"
 )
 
 var elog debug.Log

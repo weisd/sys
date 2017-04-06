@@ -15,7 +15,7 @@ import (
 	"syscall"
 	"unicode/utf16"
 
-	"golang.org/x/sys/windows"
+	"github.com/weisd/sys/windows"
 )
 
 // Mgr is used to manage Windows service.

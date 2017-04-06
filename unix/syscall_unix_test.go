@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/weisd/sys/unix"
 )
 
 // Tests that below functions, structures and constants are consistent

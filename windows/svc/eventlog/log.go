@@ -12,7 +12,7 @@ import (
 	"errors"
 	"syscall"
 
-	"golang.org/x/sys/windows"
+	"github.com/weisd/sys/windows"
 )
 
 // Log provides access to the system log.

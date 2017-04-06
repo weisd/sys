@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/weisd/sys/unix"
 )
 
 func TestPoll(t *testing.T) {
